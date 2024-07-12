@@ -38,5 +38,11 @@ Once deployed, WordPress can be accessed using the external IP of the LoadBalanc
  
 ```sh
 kubectl get services
-kubectl get svc wordpress
+kubectl get svc
 http://<EXTERNAL-IP>:3000
+## Accessing test.sh
+
+Then access `test.sh` 
+Clone this repository to your local machine using Git and access it from
+./test.sh 
+
