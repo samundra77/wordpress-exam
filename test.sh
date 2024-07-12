@@ -8,7 +8,7 @@ k3d node create test0 --cluster samundra
  
 echo "Deploying Wordpress to the cluster"
 kubectl apply -f deployment.yaml
-kubectl apply -f /mysql.yaml
+kubectl apply -f mysql.yaml
  
 echo "Verify the deployment"
 kubectl get deployments
